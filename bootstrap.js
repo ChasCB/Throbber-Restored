@@ -166,7 +166,7 @@ function startup(aData, aReason) {
 	CustomizableUI.createWidget({ //must run createWidget before windowListener.register because the register function needs the button added first
 		id : 'navigator-throbber',
 		defaultArea : CustomizableUI.AREA_NAVBAR,
-		label : 'Activity Indicator',
+		label : 'Loading',
 		overflows: false
 	});
 	
